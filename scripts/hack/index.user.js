@@ -1,11 +1,14 @@
 // ==UserScript==
-// @name        WBR cheat
-// @namespace   Violentmonkey Scripts
-// @match       https://www.whatbeatsrock.com/*
-// @grant       none
-// @version     1.0
-// @author      GameRoMan
-// @description WBR cheat script
+//
+// @name            WBR cheat
+// @namespace       Violentmonkey Scripts
+// @match           https://www.whatbeatsrock.com/*
+// @grant           none
+// @version         1.0
+// @author          GameRoMan
+// @description     WBR cheat script
+// @downloadURL     https://github.com/GameRoMan/whatbeatsrock/raw/refs/heads/main/scripts/hack/index.user.js
+//
 // ==/UserScript==
 
 
