@@ -46,7 +46,7 @@
             return string;
         }
 
-        return 'https://www.whatbeatsrock.com/user/gameroman/custom';
+        return 'wildwest.gg/u/gameroman';
     }
 
 
