@@ -24,8 +24,7 @@
         'pizza', 'popcorn', 'potato', 'pumpkin', 'rabbit', 'snail', 'snake', 'soup',
         'spaghetti', 'spider', 'strawberry', 'sushi', 'tea', 'tomato', 'turtle',
         'waffle', 'watermelon', 'wheel', 'window', 'yogurt'
-    ]
-
+    ];
 
     function get_new() {
         const text = (document.querySelectorAll(".text-center")[2]).innerHTML;
@@ -49,7 +48,6 @@
         return 'https://www.whatbeatsrock.com/user/gameroman/custom';
     }
 
-
     document.onkeypress = function(event) {
         if (event.key == ' ') {
             const inputBox = document.querySelector('.pl-4.py-4.text-lg.border.border-1-black');
@@ -58,5 +56,4 @@
             inputBox.value = get_new();
         }
     };
-
 })();
