@@ -26,7 +26,6 @@
         'waffle', 'watermelon', 'wheel', 'window', 'yogurt'
     ]
 
-
     function get_new() {
         const text = (document.querySelectorAll(".text-center")[2]).innerHTML;
         const phrases = text.split('  🤜 ');
@@ -48,7 +47,6 @@
 
         return 'wildwest.gg/u/gameroman';
     }
-
 
     document.onkeypress = function(event) {
         if (event.key == ' ') {
