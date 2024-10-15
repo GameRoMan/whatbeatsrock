@@ -24,7 +24,8 @@
         'pizza', 'popcorn', 'potato', 'pumpkin', 'rabbit', 'snail', 'snake', 'soup',
         'spaghetti', 'spider', 'strawberry', 'sushi', 'tea', 'tomato', 'turtle',
         'waffle', 'watermelon', 'wheel', 'window', 'yogurt'
-    ];
+    ]
+
 
     function get_new() {
         const text = (document.querySelectorAll(".text-center")[2]).innerHTML;
@@ -32,11 +33,11 @@
 
         if (phrases.length == 1) return 'apple that destroys this exact rock';
 
-        last = phrases[0].split(' that destroys this exact ');
+        const last = phrases[0].split(' that destroys this exact ');
 
         for (let i = 0; i < words.length; i++) {
-            next = words[i];
-            string = `${next} that destroys this exact ${last[0]}`;
+            const next = words[i];
+            const string = `${next} that destroys this exact ${last[0]}`;
 
             if (phrases.includes(string) || last.includes(next)) {
                 continue;
@@ -48,11 +49,11 @@
         return 'https://www.whatbeatsrock.com/user/gameroman/custom';
     }
 
+
     document.onkeypress = function(event) {
         if (event.key == ' ') {
             const inputBox = document.querySelector('.pl-4.py-4.text-lg.border.border-1-black');
             inputBox.id = 'input-box';
-
             inputBox.value = get_new();
         }
     };
